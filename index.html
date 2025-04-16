@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to My Meme Generator</h1>
+    <div>
+        <label for="template-select">Select Meme Template:</label>
+        <select id="template-select" name="template-select">
+            <option value="181913649">Drake</option>
+            <option value="112126428">Distracted Boyfriend</option>
+            <option value="87743020">Two Buttons</option>
+        </select>
+    </div>
+    <div>
+        <label for="top-text">Top Text:</label>
+        <input type="text" id="top-text" name="top-text" placeholder="Enter top text">
+    </div>
+    <div>
+        <label for="bottom-text">Bottom Text:</label>
+        <input type="text" id="bottom-text" name="bottom-text" placeholder="Enter bottom text">
+    </div>
+    <button id="generate-btn">Generate Meme</button>
+    <script src="script.js"></script>
+</body>
+</html>
