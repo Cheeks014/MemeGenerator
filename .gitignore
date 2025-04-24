@@ -1,5 +1,19 @@
 # Ignore node_modules and build output
-node_modules/
+<label for="template-select">Select Meme Template:</label>
+<select id="template-select" name="template-select">
+    <option value="181913649">Drake Hotline Bling</option>
+    <option value="112126428">Distracted Boyfriend</option>
+    <option value="93895088">Expanding Brain</option>
+    <option value="91538330">This Is Fine</option>
+    <option value="188390779">Woman Yelling at Cat</option>
+    <option value="222403160">Bernie I Am Once Again Asking</option>
+    <option value="248260367">Padme For the Better, Right?</option>
+    <option value="405658">Grumpy Cat</option>
+    <option value="205328981">Baby Yoda Drinking Soup</option>
+    <option value="87743020">Two Buttons</option>
+</select>git add index.html
+git commit -m "Ensure meme template dropdown includes all requested templates"
+git push origin main node_modules/
 dist/
 build/
 .DS_Store

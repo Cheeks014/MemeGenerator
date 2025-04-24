@@ -26,6 +26,15 @@ input[type="text"] {
     font-size: 16px;
 }
 
+select#template-select {
+    font-size: 26px;
+    padding: 12px;
+}
+
+label[for="template-select"] {
+    font-size: 26px;
+}
+
 button#generate-btn {
     background-color: #27ae60;
     color: white;
